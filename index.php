@@ -11,6 +11,6 @@ require './vendor/autoload.php';
 $routes = require './app/config/routes.php';
 
 $controllersMapping = require './app/config/controllersMapping.php';
-$controllerFactory = new \app\components\ControllerFactory($controllersMapping);
+$controllerFactory = new \app\core\factories\ControllerFactory($controllersMapping);
 
-(new \app\components\Router($routes, $controllerFactory))->run();
+(new \app\core\web\Router($routes, $controllerFactory))->run();
