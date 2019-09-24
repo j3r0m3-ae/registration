@@ -2,7 +2,7 @@
 
 namespace app\modules\user\controllers;
 
-use app\components\base\BaseController;
+use app\core\base\BaseController;
 
 class UserController extends BaseController
 {

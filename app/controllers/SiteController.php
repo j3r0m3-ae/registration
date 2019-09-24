@@ -2,7 +2,7 @@
 
 namespace app\controllers;
 
-use app\components\base\BaseController;
+use app\core\base\BaseController;
 
 class SiteController extends BaseController
 {
